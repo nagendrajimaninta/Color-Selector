@@ -1,0 +1,49 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+}
+.l-container {
+  height: 100%;
+  width: 70%;
+  flex-direction: column;
+}
+
+.r-container {
+  width: 30%;
+  display: flex;
+  height: 800px;
+  overflow-y: scroll;
+  flex-direction: column-reverse;
+  margin: auto;
+}
+.drop {
+  height: 200px;
+  width: 800px;
+  border: 2px solid;
+  margin: auto;
+  cursor: pointer;
+}
+.cp {
+  height: 150px;
+  cursor: copy;
+  width: 150px;
+  border: 2px solid;
+}
+
+.cp-container {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+input[type="color"] {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+.his {
+  width: 80%;
+  height: 80px;
+  background-color: pink;
+}
